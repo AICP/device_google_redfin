@@ -22,6 +22,10 @@ PRODUCT_NAME := aicp_redfin
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Ron H. (Siluxsept)"
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="redfin-user 14 UP1A.231105.001.B2 11260668 release-keys" \
     BuildFingerprint=google/redfin/redfin:14/UP1A.231105.001.B2/11260668:user/release-keys \
